@@ -1,0 +1,300 @@
+
+body {
+    background-color: #C2C9AE;
+}
+
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(171, 182, 142);
+}
+
+.navBar li {
+    float: left;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+}
+
+.navBar li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.navBar li a:hover {
+    text-decoration: underline;
+    /* border-bottom: 5px, solid, rgb(255, 255, 255); */
+    transition: 1s;
+    /* background-color: rgba(0, 0, 0, 0.4);
+    padding: 0%;
+    margin: 0%;*/
+    font-size: 1.9rem;
+}
+
+.ctn__principal {
+    margin-top: 150px; 
+}
+
+.ctn__principal h1 {
+    font-family: 'Prata', serif;
+    font-size: 2.6rem;
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+    width: 70%;
+    padding-top: 5rem;
+}
+
+.ctn__principal h2 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 2.6rem;
+    color: rgb(0, 0, 0);
+    margin-left: 100px;
+}
+
+.ctn__principal__div{
+    background-image: url(/img/img-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+}
+
+.ctn__titulos {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 60px;
+}
+
+.ctn__titulos__txt{
+    font-family: 'Prata', serif;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);   
+}
+ .fa-circle-check {
+    font-size: 30px;
+    color: rgba(155, 164, 130, 1);
+    padding-right: 10px;
+
+ }
+ 
+/* CALCULADOR */
+
+.ctn__calculator {
+    margin-top: 150px; 
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-areas:
+    "imagen  tipos"
+    "imagen  formulario"
+    ;
+}
+   
+/* IMAGEN DEL CALCULADOR */
+
+.ctn__calculator__img {
+    grid-area: imagen;
+    ;
+}
+.ctn__div {
+    align-items: center;
+}
+
+.ctn__div__img{
+    width: 65%;
+    height: 100%;
+    border-radius: 11px;
+}
+
+/* TIPOS DE PINTURA */
+
+.ctn__calculator__paint {
+    grid-area: tipos;
+    background-color: rgba(210, 216, 194, 1);
+    border-radius: 11px;
+
+}
+
+.ctn__calculator__titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctn__calculator__titles h2 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.ctn__calculator__titles p{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+
+/* LISTA DE TIPOS */
+
+#ctn__selector__paint {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+    list-style-type: none;
+
+}
+
+.ctn__selector__paintings__li {
+    margin: auto;
+}
+
+
+/* CARDS + BOTONES*/
+
+
+.btn__painting {
+    box-sizing: border-box;
+    width: 130px;
+    height: 40px;
+    border-radius: 11px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(110, 122, 77, 1);
+    color: rgb(255, 255, 255);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.btn__painting:hover {
+    background-color: rgba(55, 68, 10, 0.781);
+    transition: 1s;
+    font-size: 1.6rem;  
+}
+
+
+
+.cards__tipo__img{
+    max-width: 90px;
+    max-height: 90px;
+}
+
+.cards__tipo {
+    width: 150px;
+    height: 200px;
+    background: rgba(243, 244, 237, 1);
+    border-radius: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* SECTION FORMULARIO */
+
+.ctn__form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/* ARTICLE = DATOS */
+
+.ctn__form__datos {
+    background-color: rgba(170, 182, 137, 1);
+    padding: 50px;
+    border-radius: 11px;
+}
+
+.ctn__form__datos form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ctn__form__datos label {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.3rem;
+    padding: 3px 30px 3px 30px; 
+    background-color: rgba(196, 196, 196, 1);
+}
+
+.ctn__form__datos input {
+    width: 90px;
+    height: 30px;
+
+}
+
+/* SELECTOR DE MANOS */
+
+#inp__manos{
+    padding: 3px 10px 3px 10px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.3rem;
+}
+
+#btn__calcular {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.6rem;
+    margin-top: 20px;
+    padding: 5px 40px 5px 40px;
+    border-radius: 11px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(110, 122, 77, 1);
+}
+
+/* ARTICLE = RESULTADO */
+
+.ctn__form__resultado {
+    background-color: rgba(231, 236, 216, 1);
+    padding: 50px;
+    border-radius: 11px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctn__form__resultado div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctn__form__resultado p {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.2rem;
+}
+
+.fa-droplet {
+    color: rgb(83, 209, 150);
+    width: 70px;
+    height: 70px;
+
+}
+
+
+/* RENDIMIENTOS.HTML  */
+
+.ctn__listado {
+    margin-top: 150px; 
+
+}

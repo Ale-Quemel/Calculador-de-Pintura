@@ -1,0 +1,10 @@
+
+[
+    {"tipo": "Fijador", "id": 1, "presentacion": "1, 4 , 10 y 20 lts.", "precio": 1700, "descripcion": "Este producto se recomienda preparar 1 litro de fijador más 3 litros de agua para formar 4 litros de mezcla.", "rendimiento": "10 m2 (1 mano)"},
+    {"tipo": "Látex Interior", "id": 2, "presentacion": "1, 4 , 10 y 20 lts.", "precio": 23000, "descripcion": "El látex de interior viene en terminación mate o satinada, su función es prevenir los hongos y bacterias y también permitir que la pared respire.", "rendimiento": "5 m2 (2 mano)"},
+    {"tipo":"Látex Impermeable", "id": 3, "presentacion": "1, 4 , 10 y 20 lts.", "precio": 26000, "descripcion":"El látex impermeable tiene la función de proteger de los agentes externos y evitar filtraciones.", "rendimiento": "4 m2 (2 mano)"
+    },
+    {"tipo": "Masilla plástica", "id":4, "presentacion": "13, 25 y 32 kg.", "precio": 6500, "descripcion": "La masilla plástica se utiliza comúnmente para realizar planchados/ alisados de paredes de concreto o durlock.", "rendimiento": "1 m2 x kg (2 mano)"} 
+    
+]
+

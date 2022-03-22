@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Painter</title>
+    <!-- FUENTES GOOGLE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Prata&display=swap" rel="stylesheet">
+    <!-- TOASTIFY-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <ul class="navBar">
+            <li><a href="/index.html">PAINTER</a></li>
+            <li><a href="/calculador.html">CALCULADOR</a></li>
+            <li><a href="/colorRoom.html">PERSONALIZAR</a></li>
+            <li><a href="/rendimientos.html">RENDIMIENTOS</a></li>
+            <li><a href="#">FAQ's</a></li>
+        </ul>
+    </header>
+
+    <main class="ctn__calculator">
+        <!--IMAGEN-->
+        <section class="ctn__calculator__img" >
+            <div class="ctn__div">
+                <img class ="ctn__div__img" src="/img/painting.webp" alt="persona-pintando-su-hogar">
+            </div>
+
+        </section>    
+
+        <!--TIPOS DE PINTURA-->
+        <section class="ctn__calculator__paint">
+            <div class="ctn__calculator__titles">
+                <h2>Selecciona el tipo de pintura</h2>
+                <p>Cada pintura tiene un rendimiento diferente y también depende de las manos que apliquemos. <br> ¡Elegí la tuya!</p>
+            </div>
+
+            <ul class="tipos__pintura" id="ctn__selector__paint">
+                <li class="ctn__selector__paintings__li">
+                    <div class="cards__tipo">
+                        <img class="cards__tipo__img" src="/img/fijador.png" alt="">
+                    </div>
+                    <button class="btn__painting" id="btn__fij">Fijador</button>
+                </li>
+                <li class="ctn__selector__paintings__li">
+                    <div class="cards__tipo">
+                        <img class="cards__tipo__img" src="/img/interior.png" alt="">
+                    </div>
+                    <button class="btn__painting" id="btn__int">Interior</button>
+                </li>
+                <li class="ctn__selector__paintings__li">
+                    <div class="cards__tipo">
+                        <img class="cards__tipo__img" src="/img/exterior.png" alt="">
+                    </div>
+                    <button class="btn__painting" id="btn__ext">Exterior</button>
+                </li>
+                <li class="ctn__selector__paintings__li">
+                    <div class="cards__tipo">
+                        <img class="cards__tipo__img" src="/img/masilla.png" alt="">
+                    </div>
+                    <button class="btn__painting" id="btn__mas">Masilla</button>
+                </li>
+            </ul>
+        </section>
+        
+         <!-- FORMULARIO -->   
+        <section class="ctn__form">
+
+            <article class="ctn__form__datos">
+                <form action="">
+                    <div>
+                        <label class="" for="m-ancho">Ingresa el ancho:</label>
+                        <input id="inp__ancho" type="number" required for="m-ancho">
+                    </div>
+                    <div>
+                        <label for="m-altura">Ingresa el alto:</label>
+                        <input id="inp__alto" type="number" required for="m-altura">
+                    </div>
+                    <div class="selector__manos">
+                        <!-- <label for="manos">Ingresa la cantidad de manos:</label>
+                        <input id="inp__manos" type="number" required for="manos"> -->
+                        <select id="inp__manos" name="select">
+                            <option id="1mano" value="value1">1 mano</option>
+                            <option id="2manos" value="value2">2 manos</option>
+                            
+                        </select>
+                    </div>
+                    <div>
+                        <button id="btn__calcular">Calcular</button>
+                    </div>
+                </form>
+            </article>
+            
+            <article class="ctn__form__resultado">
+                <div>
+                    <i class="fa-solid fa-droplet"></i>
+                    <p id="p__dsc">
+                        ¡Ingresa los datos para saber cuántos litros vas a necesitar!
+                    </p>
+                    <!-- <p>Tenés un total de <span id="mts-totales"></span> m2 de superficie y vas a necesitar <span id="litros-totales"></span> litros de pintura.</p> -->
+                </div>
+
+            </article>
+        </section>
+    </main>
+
+
+    <script src="main.js"></script>
+    <!-- TOASTIFY JS-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- FONT AWESOME -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/js/all.min.js" integrity="sha512-Cvxz1E4gCrYKQfz6Ne+VoDiiLrbFBvc6BPh4iyKo2/ICdIodfgc5Q9cBjRivfQNUXBCEnQWcEInSXsvlNHY/ZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
