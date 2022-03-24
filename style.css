@@ -1,6 +1,8 @@
 
 body {
     background-color: #C2C9AE;
+    margin: 0;
+
 }
 
 .navBar {
@@ -32,11 +34,7 @@ body {
 
 .navBar li a:hover {
     text-decoration: underline;
-    /* border-bottom: 5px, solid, rgb(255, 255, 255); */
     transition: 1s;
-    /* background-color: rgba(0, 0, 0, 0.4);
-    padding: 0%;
-    margin: 0%;*/
     font-size: 1.9rem;
 }
 
@@ -61,7 +59,7 @@ body {
 }
 
 .ctn__principal__div{
-    background-image: url(/img/img-home.jpg);
+    background-image: url("img/img-home.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -136,13 +134,13 @@ body {
 
 .ctn__calculator__titles h2 {
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     color: rgb(255, 255, 255);
 }
 
 .ctn__calculator__titles p{
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     text-align: center;
 }
 
@@ -233,7 +231,7 @@ body {
 
 .ctn__form__datos label {
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     padding: 3px 30px 3px 30px; 
     background-color: rgba(196, 196, 196, 1);
 }
@@ -281,7 +279,7 @@ body {
 
 .ctn__form__resultado p {
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 
 .fa-droplet {
@@ -297,4 +295,34 @@ body {
 .ctn__listado {
     margin-top: 150px; 
 
+}
+
+.ctn__listado h2 {
+    padding: 2.5rem;
+    font-family: 'Prata', serif;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+.tiposDePinturas {
+    list-style-type: none;
+    display: grid;
+    gap: 3rem;
+}
+
+.tiposDePinturas li h3 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 2.5rem;
+}
+
+.tiposDePinturas li h4 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 2rem;
+    color: rgba(110, 122, 77, 1)
+}
+
+.tiposDePinturas li p {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.8rem;
+    color: rgb(0, 0, 0);
 }

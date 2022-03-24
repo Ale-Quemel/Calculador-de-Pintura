@@ -1,10 +1,59 @@
 
 [
-    {"tipo": "Fijador", "id": 1, "presentacion": "1, 4 , 10 y 20 lts.", "precio": 1700, "descripcion": "Este producto se recomienda preparar 1 litro de fijador más 3 litros de agua para formar 4 litros de mezcla.", "rendimiento": "10 m2 (1 mano)"},
-    {"tipo": "Látex Interior", "id": 2, "presentacion": "1, 4 , 10 y 20 lts.", "precio": 23000, "descripcion": "El látex de interior viene en terminación mate o satinada, su función es prevenir los hongos y bacterias y también permitir que la pared respire.", "rendimiento": "5 m2 (2 mano)"},
-    {"tipo":"Látex Impermeable", "id": 3, "presentacion": "1, 4 , 10 y 20 lts.", "precio": 26000, "descripcion":"El látex impermeable tiene la función de proteger de los agentes externos y evitar filtraciones.", "rendimiento": "4 m2 (2 mano)"
+    {   "tipo": "Fijador", 
+        "id": 1,
+        "presentacion": "1, 4 , 10 y 20 lts.", 
+        "precio": 1700,
+        "descripcion": "Este producto se recomienda preparar 1 litro de fijador más 3 litros de agua para formar 4 litros de mezcla.",
+        "rendimiento": "10 m2 (1 mano)"},
+
+    {   "tipo": "Látex Interior",
+        "id": 2,
+        "presentacion": "1, 4 , 10 y 20 lts.",
+        "precio": 23000,
+        "descripcion": "El látex de interior viene en terminación mate o satinada, su función es prevenir los hongos y bacterias y también permitir que la pared respire.",
+        "rendimiento": "5 m2 (2 mano)"
     },
-    {"tipo": "Masilla plástica", "id":4, "presentacion": "13, 25 y 32 kg.", "precio": 6500, "descripcion": "La masilla plástica se utiliza comúnmente para realizar planchados/ alisados de paredes de concreto o durlock.", "rendimiento": "1 m2 x kg (2 mano)"} 
+
+    {   "tipo":"Látex Impermeable",
+        "id": 3,
+        "presentacion": "1, 4 , 10 y 20 lts.",
+        "precio": 26000,
+        "descripcion":"Se utiliza como impermeabilizante de muros y paredes exteriores. Posee excelente adherencia sobre hormigón, revoques, yeso, ladrillos comunes o cerámicos, maderas y chapas galvanizadas en buen estado.",
+        "rendimiento": "2,5 m2/Lt por mano, para 2mm de espesor de película seca, dependiendo de la superficie, el modo de aplicación y el nivel de exigencia requerido. Se recomienda aplicar 1 mano."
+    },
+
+    {   "tipo":"Sellador Fibrado",
+        "id": 3,
+        "presentacion": "1, 4 , 10 y 20 kg.",
+        "precio": 26000,
+        "descripcion":"Es un producto a base de resinas acrílicas, cargas minerales y fibras sintéticas especialmente formulado para lograr una unión flexible e impermeable entre distintos tipos de materiales (hormigón, mampostería, madera, metal, vidrio, etc.). Se utiliza para el sellado de fisuras en mampostería y juntas de dilatación de pisos y paredes.",
+        "rendimiento": "140 g / metro lineal, junta de 1 x 1 cm."
+    },
+
+    {   "tipo": "Masilla plástica",
+        "id":4,
+        "presentacion": "13, 25 y 32 kg.",
+        "precio": 6500,
+        "descripcion": "Es un producto plástico indicado para placas de yeso, donde se utiliza comúnmente para realizar planchados/ alisados de superficies previas a pintar.",
+        "rendimiento": "2,5 m2/Lt por mano, para 2mm de espesor de película seca, dependiendo de la superficie, el modo de aplicación y el nivel de exigencia requerido. Se recomienda aplicar 1 mano."
+    },
     
+    
+    {   "tipo": "Enduido Interior",
+        "id":4,
+        "presentacion": "1, 4, 10 y 20 lts.",
+        "precio": 6500,
+        "descripcion": "Es un producto desarrollado para lograr un fácil alisado de superficies interiores. Recomendado como base de pinturas mates y satinadas. Permite tanto emparejar superficies como lograr acabados texturados o diseños especiales si se utilizan las herramientas necesarias para tal fin.",
+        "rendimiento": "2,5 m2/Lt por mano, para 2mm de espesor de película seca, dependiendo de la superficie, el modo de aplicación y el nivel de exigencia requerido. Se recomienda aplicar 1 mano."
+    },
+
+    {   "tipo": "Enduido Exterior",
+        "id":4,
+        "presentacion": "1, 4, 10 y 20 lts.",
+        "precio": 6500,
+        "descripcion": "Es un producto desarrollado para lograr un fácil alisado de superficies exteriores. Recomendado como base para diversos tipos de pinturas. Permite tanto emparejar superficies como lograr acabados texturados o diseños especiales si se utilizan las herramientas necesarias para tal fin. Su viscosidad y cremosidad facilita la aplicación sin chorrearse.",
+        "rendimiento": "2,5 m2/Lt por mano, para 2mm de espesor de película seca, dependiendo de la superficie, el modo de aplicación y el nivel de exigencia requerido. Se recomienda aplicar 1 mano."
+    }
 ]
 
